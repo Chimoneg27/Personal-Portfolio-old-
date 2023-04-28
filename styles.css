@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  background-color: #3c3a39;
+}
+
+#toolbar nav {
+  display: none;
+}
+
+#my-logo {
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-size: 1.125;
+  font-weight: 700;
+  line-height: 1.5rem;
+  /* stylelint-disable-next-line length-zero-no-unit */
+  letter-spacing: 0em;
+  text-align: center;
+  color: #faeeee;
+}
+
+#union-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center, space-around;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.25rem;
+}
+
+.fa-solid {
+  /* display: block; */
+  font-size: 1.45rem;
+  color: #fff;
+  width: 100%;
+  height: 90%;
+}
+/* stylelint-disable-next-line rule-empty-line-before */
+#headline-container {
+  width: 100%;
+  height: 40rem;
+  background-color: black;
+}
+
+#headline {
+  color: #fff;
+  background-color: black;
+  height: 36rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 7.5rem 1.5rem;
+  background-image: url(images/illustration-header-mobilebg\ image.png);
+  background-repeat: no-repeat;
+  background-position: top 150% left 100%;
+}
+
+#headline #text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#headline h1 {
+  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+  width: 20.25rem;
+  height: 7.75rem;
+  color: #ff6b00;
+}
+
+#headline h2 {
+  font-family: "Roboto", 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  width: 20.25rem;
+  height: 1.7rem;
+  color: #fff5e1;
+}
+
+#headline p {
+  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  width: 20.25rem;
+  height: 7.7rem;
+}
+
+#headline-icons {
+  width: 12rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+#headline-icons ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  gap: 0.25rem;
+  width: 100%;
+  height: inherit;
+}
+
+.icons {
+  width: 1.125rem;
+  height: 1.25rem;
+  color: #dbd8d7;
+}
+
+@media only screen and (min-width: 768px) {
+  #union-button {
+    display: none;
+  }
+
+  #first-img {
+    display: none;
+  }
+
+  #toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+  }
+
+  #toolbar nav {
+    display: initial;
+  }
+
+  #toolbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    gap: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  #toolbar a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #headline {
+    color: #fff;
+    background-color: black;
+    width: 36rem;
+    height: 40  rem;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    margin-left: 3rem;
+  }
+
+  #headline-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bgimagedsk.png);
+    background-repeat: no-repeat;
+    background-position: left 100% bottom 50%;
+  }
+
+  #headline h1 {
+    width: 35.375rem;
+    height: 10rem;
+    font-size: 4.5rem;
+    font-weight: 400;
+    align-self: center;
+    line-height: 5.125rem;
+    font-family: "Crete Round", 'Times New Roman', Times, serif;
+  }
+
+  #headline h2 {
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    align-items: center;
+    font-weight: 500;
+    width: 35.375rem;
+    height: 3rem;
+    color: #fff5e1;
+  }
+
+  #headline p {
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 400;
+    width: 35.375rem;
+    height: 7.75rem;
+  }
+
+  #headline-icons {
+    width: 2rem;
+    height: 12rem;
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+  }
+
+  #headline-icons ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 0.25rem;
+    width: 100%;
+    height: inherit;
+  }
+}
