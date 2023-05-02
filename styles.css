@@ -543,6 +543,17 @@ body {
   padding: 0.25rem;
 }
 
+#real-form form textarea {
+  width: 19.125rem;
+  height: 7.25rem;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #fBf8f7;
+}
+
 @media only screen and (min-width: 768px) {
   #union-button {
     display: none;
