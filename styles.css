@@ -573,7 +573,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  position: relative;
 }
 
 #footer-icons ul{
@@ -591,6 +591,14 @@ body {
   height: 1.25rem;
   color:  #334a72;
   filter: invert(28%) sepia(22%) saturate(1129%) hue-rotate(179deg) brightness(90%) contrast(93%);
+}
+
+#footer-line-img {
+  position: absolute;
+  width: 8.375rem;
+  height: 0.5rem;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
