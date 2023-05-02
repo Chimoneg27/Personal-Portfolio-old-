@@ -508,7 +508,7 @@ body {
   color: #172B4D;
 }
 
-#real-form form{
+#real-form form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -566,7 +566,7 @@ body {
   padding: 0.75rem;
 }
 
-#footer-container{
+#footer-container {
   width: 100%;
   height: 6rem;
   display: flex;
@@ -576,7 +576,7 @@ body {
   position: relative;
 }
 
-#footer-icons ul{
+#footer-icons ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -589,7 +589,7 @@ body {
 .footer-social {
   width: 1.125rem;
   height: 1.25rem;
-  color:  #334a72;
+  color: #334a72;
   filter: invert(28%) sepia(22%) saturate(1129%) hue-rotate(179deg) brightness(90%) contrast(93%);
 }
 
@@ -597,7 +597,7 @@ body {
   position: absolute;
   width: 8.375rem;
   height: 0.5rem;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: 32%;
   bottom: 0.5rem;
 }
 
