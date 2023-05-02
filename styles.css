@@ -490,6 +490,34 @@ body {
   gap: 3.625rem;
 }
 
+#form-intro {
+  width: 20.375rem;
+  height: 16.32rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form-intro p {
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #172B4D;
+}
+
+#real-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 20.625rem;
+  width: 20.375rem;
+}
+
 @media only screen and (min-width: 768px) {
   #union-button {
     display: none;
