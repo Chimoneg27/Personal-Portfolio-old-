@@ -576,6 +576,23 @@ body {
   gap: 1rem;
 }
 
+#footer-icons ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  gap: 0.75rem;
+  width: 100%;
+  height: inherit;
+}
+
+.footer-social {
+  width: 1.125rem;
+  height: 1.25rem;
+  color:  #334a72;
+  filter: invert(28%) sepia(22%) saturate(1129%) hue-rotate(179deg) brightness(90%) contrast(93%);
+}
+
 @media only screen and (min-width: 768px) {
   #union-button {
     display: none;
