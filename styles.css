@@ -554,6 +554,18 @@ body {
   background-color: #fBf8f7;
 }
 
+#real-form form button {
+  background-color: #f55800;
+  color: #f4f5f7;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  padding: 0.75rem;
+}
+
 @media only screen and (min-width: 768px) {
   #union-button {
     display: none;
