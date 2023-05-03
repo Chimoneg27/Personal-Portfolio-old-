@@ -283,6 +283,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.projects span {
+  visibility: hidden;
+}
+
 .projects h3 {
   width: 18.5rem;
   height: 5.125rem;
@@ -669,6 +673,7 @@ body {
 
   #toolbar ul {
     display: flex;
+    width: 15rem;
     flex-direction: row;
     justify-content: space-between;
     font-family: "Inter", 'Times New Roman', Times, serif;
@@ -694,6 +699,11 @@ body {
     justify-content: center;
     background-image: none;
     margin-left: 3rem;
+  }
+
+  #my-logo {
+    font-size: 1.35rem;
+    line-height: 1.5rem;
   }
 
   #headline-container {
@@ -854,6 +864,23 @@ body {
     gap: 1rem;
     justify-content: center;
   }
+
+    #projects-container :first-child h3{
+      visibility: hidden;
+    }
+
+    .projects:first-child {
+      background-image: url(images/desktop/Img\ Placeholder.png);
+      background-repeat: no-repeat;
+    }
+
+    #projects-container :first-child p{
+      visibility: hidden;
+    }
+
+    #projects-container :first-child ul{
+      visibility: hidden;
+    }
 
   #projects-container :nth-child(5n) {
     visibility: visible;
