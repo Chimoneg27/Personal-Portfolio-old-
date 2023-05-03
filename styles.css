@@ -249,6 +249,24 @@ body {
   font-family: "Inter", 'Times New Roman', Times, serif;
 }
 
+#pst-btn button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: 0.1rem #ff6b00 solid;
+  cursor: pointer;
+}
+
+#pst-btn button:active {
+  background-color: #E05304;
+  color: #fff;
+  border: 0.1rem #ff6b00 solid;
+}
+
+#pst-btn button:disabled {
+  background-color: #f4f1f0;
+  color: #3c3a39;
+}
+
 #projects-container {
   width: 100%;
   height: 130rem;
@@ -287,12 +305,12 @@ body {
   visibility: hidden;
 }
 
-  #projects-container :nth-child(3n) h3 {
-    visibility: visible;
-    margin-top: 1rem;
-    width: 100%;
-    margin-left: 1.5rem;
-  }
+#projects-container :nth-child(3n) h3 {
+  visibility: visible;
+  margin-top: 1rem;
+  width: 100%;
+  margin-left: 1.5rem;
+}
 
 .projects h3 {
   width: 18.5rem;
@@ -373,6 +391,24 @@ body {
   background-color: #ff6b00;
 }
 
+.prjct-btn button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: 0.1rem #ff6b00 solid;
+  cursor: pointer;
+}
+
+.prjct-btn button:active {
+  background-color: #E05304;
+  color: #fff;
+  border: 0.1rem #ff6b00 solid;
+}
+
+.prjct-btn button:disabled {
+  background-color: #f4f1f0;
+  color: #3c3a39;
+}
+
 #about-me {
   width: 100%;
   height: 120rem;
@@ -382,6 +418,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  background-image: none;
 }
 
 #abt-container {
@@ -500,24 +537,6 @@ body {
   justify-content: center;
   height: 1.5rem;
   text-align: center;
-}
-
-.prjct-btn button:hover {
-  border: 1px solid #f55800;
-  color: #faeeee;
-  background: linear-gradient(0deg, #fff5E1, #fff5E1), linear-gradient(0deg, #F55800, #F55800);
-}
-
-.prjct-btn button:enabled {
-  border: none;
-  color: #faeeee;
-  background: rgba(245, 88, 0, 1);
-}
-
-.prjct-btn button:disabled {
-  border: solid 1px grey;
-  color: #919191c9;
-  background: rgba(244, 241, 240, 1);
 }
 
 #form-container {
@@ -691,6 +710,7 @@ body {
     gap: 0.5rem;
     list-style: none;
     text-decoration: none;
+    margin-right: 2rem;
   }
 
   #toolbar a {
@@ -784,7 +804,7 @@ body {
   #mobile-line {
     visibility: hidden;
   }
-  
+
   #works-container {
     height: 115rem;
     gap: 2rem;
@@ -1009,5 +1029,63 @@ body {
   #projects-container :nth-child(6n) {
     visibility: visible;
     display: flex;
+  }
+
+  #about-me {
+    background-image: url(images/desktop/illustration-about\ me.png), url(images/desktop/Vector-line\ 4.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 95% left 100%, bottom 54% center;
+    height: 70rem;
+  }
+
+  #abt-container {
+    width: 35.375rem;
+    height: 30rem;
+    background-image: none;
+    margin-left: -40rem;
+    margin-top: -10rem;
+  }
+
+  #abt-title h2 {
+    margin-left: -11rem;
+  }
+
+  #abt-text p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  #resume-btn {
+    margin-top: 2rem;
+    margin-left: -11rem;
+  }
+
+  #resume-btn button:hover {
+    background-color: #fff;
+    color: #ff6b00;
+    border: 0.1rem #ff6b00 solid;
+    cursor: pointer;
+  }
+
+  #resume-btn button:active {
+    background-color: #E05304;
+    color: #fff;
+    border: 0.1rem #ff6b00 solid;
+  }
+
+  #resume-btn button:disabled {
+    background-color: #f4f1f0;
+    color: #3c3a39;
+  }
+
+  #languages {
+    flex-direction: row;
+    height: 20rem;
+    justify-content: space-evenly;
+    margin-top: 7.25rem;
+  }
+
+  .lists li{
+    justify-content: left;
   }
 }
