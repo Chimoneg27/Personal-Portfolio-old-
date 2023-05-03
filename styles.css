@@ -257,6 +257,17 @@ body {
   grid-template-columns: 20.44rem;
   grid-template-rows: repeat(4, 24.125rem);
   gap: 1rem;
+  overflow: hidden;
+}
+
+#projects-container :nth-child(5n) {
+  visibility: hidden;
+  display: none;
+}
+
+#projects-container :nth-child(6n) {
+  visibility: hidden;
+  display: none;
 }
 
 .projects {
@@ -785,7 +796,7 @@ body {
   }
 
   #post-stories {
-    height: 42rem;
+    height: 35rem;
     margin-top: 3.5rem;
     margin-bottom: 1.5rem;
     width: 72.25rem;
@@ -798,7 +809,7 @@ body {
 
   #text-info {
     width: 45%;
-    height: 70%;
+    height: 72%;
     /* padding: 0 2rem; */
     display: flex;
     gap: 1.25rem;
@@ -831,5 +842,26 @@ body {
   #pst-btn button {
     position: absolute;
     left: 1.5rem;
+  }
+  
+  #projects-container {
+    width: 73rem;
+    height: 55rem;
+    padding: 0rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 20.44rem);
+    grid-template-rows: repeat(2, 24.125rem);
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  #projects-container :nth-child(5n) {
+    visibility: visible;
+    display: flex;
+  }
+  
+  #projects-container :nth-child(6n) {
+    visibility: visible;
+    display: flex;
   }
 }
