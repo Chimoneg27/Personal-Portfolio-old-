@@ -138,7 +138,7 @@ body {
 
 #works-container {
   width: 100%;
-  height: 165rem;
+  height: 170rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,10 +159,11 @@ body {
 
 .works-title-img {
   visibility: hidden;
+  display: none;
 }
 
 #post-stories {
-  height: 38rem;
+  height: 42rem;
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;
   width: 100%;
@@ -171,6 +172,15 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   justify-content: center;
+}
+
+#text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.55rem;
+  position: relative;
 }
 
 #stories-title {
@@ -225,6 +235,8 @@ body {
 }
 
 #pst-btn button {
+  position: absolute;
+  left: 0;
   padding: 0.75rem;
   background-color: #ff6b00;
   width: 7.75;
@@ -756,5 +768,68 @@ body {
     width: 40rem;
     height: 0.75rem;
     visibility: initial;
+    display: initial;
+  }
+
+  #mobile-yoga {
+    visibility: hidden;
+  }
+
+  #yoga-post {
+    width: 42.75rem;
+    height: 28rem;
+    background-image: url(images/desktop/yoga\ desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 55%;
+  }
+
+  #post-stories {
+    height: 42rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    width: 72.25rem;
+    padding: 0rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+  }
+
+  #text-info {
+    width: 45%;
+    height: 70%;
+    /* padding: 0 2rem; */
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #stories-title {
+    width: 28rem;
+    margin-top: -6.75rem;
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 3.25rem;
+  }
+  
+  #stories-text {
+    width: 28rem;
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.75rem;
+    font-size: 1.25rem;
+  }
+
+  #stories-tags {
+    width: 19.75rem;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+  }
+
+  #pst-btn button {
+    position: absolute;
+    left: 1.5rem;
   }
 }
