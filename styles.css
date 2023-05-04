@@ -263,6 +263,12 @@ body {
   gap: 1.5rem;
   background-image: url(images/Img\ Placeholderprojectbgimg.png);
   background-repeat: no-repeat;
+  transition-property: all; 
+  transition-duration: 1s;
+}
+
+.projects:hover {
+  transform: scale(1.05);
 }
 
 .projects h3 {
