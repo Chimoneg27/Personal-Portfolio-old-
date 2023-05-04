@@ -1146,8 +1146,6 @@ body {
     border: 0.1rem #504945 solid;
   }
 
-  #footer-line-img {
-    visibility: hidden;
-  }
-
+  #footer-line-img { visibility: hidden; }
+  
 }
