@@ -232,6 +232,14 @@ body {
   border: none;
   color: #faeeee;
   font-family: "Inter", 'Times New Roman', Times, serif;
+  transition-property: all; 
+  transition-duration: 1s;
+}
+
+#pst-btn button:hover {
+  background-color: black;
+  border: 0.25rem solid white;
+  color: white;
 }
 
 #projects-container {
@@ -330,6 +338,14 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
+  transition-property: all; 
+  transition-duration: 1s;
+}
+
+.prjct-btn button:hover {
+  background-color: black;
+  border: 0.25rem solid white;
+  color: white;
 }
 
 #about-me {
@@ -459,24 +475,6 @@ body {
   justify-content: center;
   height: 1.5rem;
   text-align: center;
-}
-
-.prjct-btn button:hover {
-  border: 1px solid #f55800;
-  color: #faeeee;
-  background: linear-gradient(0deg, #fff5E1, #fff5E1), linear-gradient(0deg, #F55800, #F55800);
-}
-
-.prjct-btn button:enabled {
-  border: none;
-  color: #faeeee;
-  background: rgba(245, 88, 0, 1);
-}
-
-.prjct-btn button:disabled {
-  border: solid 1px grey;
-  color: #919191c9;
-  background: rgba(244, 241, 240, 1);
 }
 
 #form-container {
