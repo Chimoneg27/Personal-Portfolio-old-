@@ -277,7 +277,7 @@ body {
   gap: 1rem;
   overflow: hidden;
   margin-left: auto;
-  margin: auto;
+  margin-right: auto;
 }
 
 #projects-container :nth-child(5n) {
@@ -477,23 +477,23 @@ body {
   font-family: "Inter", 'Times New Roman', Times, serif;
 }
 
-  #resume-btn button:hover {
-    background-color: #fff;
-    color: #ff6b00;
-    border: 0.1rem #ff6b00 solid;
-    cursor: pointer;
-  }
+#resume-btn button:hover {
+  background-color: #fff;
+  color: #ff6b00;
+  border: 0.1rem #ff6b00 solid;
+  cursor: pointer;
+}
 
-  #resume-btn button:active {
-    background-color: #E05304;
-    color: #fff;
-    border: 0.1rem #ff6b00 solid;
-  }
+#resume-btn button:active {
+  background-color: #E05304;
+  color: #fff;
+  border: 0.1rem #ff6b00 solid;
+}
 
-  #resume-btn button:disabled {
-    background-color: #f4f1f0;
-    color: #3c3a39;
-  }
+#resume-btn button:disabled {
+  background-color: #f4f1f0;
+  color: #3c3a39;
+}
 
 #languages {
   width: 100%;
@@ -923,11 +923,11 @@ body {
     visibility: hidden;
   }
 
-  #projects-container > :first-child:hover {
+  #projects-container> :first-child:hover {
     border: solid 0.15rem #2828b8;
   }
 
-  #projects-container > :first-child .prjct-btn {
+  #projects-container> :first-child .prjct-btn {
     width: 100%;
   }
 
