@@ -588,6 +588,7 @@ body {
   border-right: none;
   font-size: 1.125rem;
   font-weight: 500;
+  padding: 0.5rem;
 }
 
 #real-form input[type=email] {
@@ -600,7 +601,7 @@ body {
   border-right: none;
   font-size: 1.125rem;
   font-weight: 500;
-  padding: 0.25rem;
+  padding: 0.5rem;
 }
 
 #real-form form textarea {
@@ -650,7 +651,7 @@ body {
   width: 1.125rem;
   height: 1.25rem;
   color: #334a72;
-  filter: invert(28%) sepia(22%) saturate(1129%) hue-rotate(179deg) brightness(90%) contrast(93%);
+  filter: invert(20%) sepia(12%) saturate(152%) hue-rotate(336deg) brightness(93%) contrast(87%);
 }
 
 #footer-line-img {
@@ -1087,5 +1088,76 @@ body {
 
   .lists li{
     justify-content: left;
+  }
+
+  #form-container {
+    width: 72.75rem;
+    height: 40rem;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+
+  #form-intro {
+    width: 26rem;
+    height: 20.625rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #form-intro p {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  #real-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    height: 28rem;
+    width: 40rem;
+    margin-right: -4rem;
+    margin-top: -0.75rem;
+    position: relative;
+  }
+
+  #real-form form textarea {
+    width: 40rem;
+    height: 6.5rem;
+  }
+
+  #real-form form button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #real-form form button:hover {
+    background-color: #fff;
+    color: #ff6b00;
+    border: 0.1rem #ff6b00 solid;
+    cursor: pointer;
+  }
+
+  #real-form form button:active {
+    background-color: #E05304;
+    color: #fff;
+    border: 0.1rem #ff6b00 solid;
+  }
+
+  #real-form form button:disabled {
+    background-color: #f4f1f0;
+    color: #3c3a39;
+    border: 0.1rem #504945 solid;
+  }
+  
+  #footer-line-img {
+    visibility: hidden;
   }
 }
