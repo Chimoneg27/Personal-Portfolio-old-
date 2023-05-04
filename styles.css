@@ -923,11 +923,11 @@ body {
     visibility: hidden;
   }
 
-  #projects-container> :first-child:hover {
+  #projects-container > :first-child:hover {
     border: solid 0.15rem #2828b8;
   }
 
-  #projects-container> :first-child .prjct-btn {
+  #projects-container > :first-child .prjct-btn {
     width: 100%;
   }
 
