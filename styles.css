@@ -399,6 +399,8 @@ body {
   display: flex;
   width: 20.45rem;
   align-items: flex-start;
+  transition-property: all; 
+  transition-duration: 1s;
 }
 
 #resume-btn button {
@@ -412,6 +414,12 @@ body {
   border: none;
   color: #faeeee;
   font-family: "Inter", 'Times New Roman', Times, serif;
+}
+
+#resume-btn button:hover {
+  background-color: black;
+  border: 0.25rem solid white;
+  color: white;
 }
 
 #languages {
@@ -552,7 +560,7 @@ body {
   background-color: #fBf8f7;
 }
 
-#real-form form button {
+form button {
   background-color: #f55800;
   color: #f4f5f7;
   font-family: "Inter", 'Times New Roman', Times, serif;
@@ -562,6 +570,14 @@ body {
   height: 3rem;
   border: none;
   padding: 0.75rem;
+  transition-property: all; 
+  transition-duration: 1s;
+}
+
+form button:hover {
+  background-color: black;
+  border: 0.25rem solid rgb(72, 72, 119);
+  color: white;
 }
 
 #footer-container {
