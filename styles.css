@@ -338,7 +338,6 @@ body {
   width: 15.45rem;
   height: 2.5rem;
   position: absolute;
-  top: 18.25rem;
   left: 0.75rem;
   top: 68%;
 }
@@ -834,7 +833,6 @@ body {
   }
 
   #yoga-post {
-    width: 42.75rem;
     height: 28rem;
     background-image: url(images/desktop/yoga\ desktop.png);
     background-repeat: no-repeat;
@@ -857,7 +855,6 @@ body {
   #text-info {
     width: 45%;
     height: 85%;
-    /* padding: 0 2rem; */
     display: flex;
     gap: 1.25rem;
     flex-direction: column;
@@ -927,7 +924,6 @@ body {
   }
 
   #projects-container :nth-child(2n) .project-tags {
-    top: 18.25rem;
     left: 0.75rem;
     top: 85%;
   }
@@ -950,7 +946,6 @@ body {
   }
 
   #projects-container :nth-child(3n) .project-tags {
-    top: 18.25rem;
     left: 0.75rem;
     top: 85%;
   }
@@ -974,7 +969,6 @@ body {
   }
 
   #projects-container :nth-child(4n) .project-tags {
-    top: 18.25rem;
     left: 0.75rem;
     top: 85%;
   }
@@ -1005,16 +999,11 @@ body {
   }
 
   #projects-container :nth-child(5n) .project-tags {
-    top: 18.25rem;
     left: 0.75rem;
     top: 85%;
   }
 
   #projects-container :nth-child(5n) p {
-    top: 53%;
-  }
-
-  #projects-container :nth-child(2) p {
     top: 53%;
   }
 
@@ -1086,7 +1075,7 @@ body {
     margin-top: 7.25rem;
   }
 
-  .lists li{
+  .lists li {
     justify-content: left;
   }
 
@@ -1108,7 +1097,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  
+
   #form-intro p {
     font-size: 2.5rem;
     text-align: left;
@@ -1156,7 +1145,7 @@ body {
     color: #3c3a39;
     border: 0.1rem #504945 solid;
   }
-  
+
   #footer-line-img {
     visibility: hidden;
   }
