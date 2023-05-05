@@ -375,8 +375,6 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
-  transition-property: all;
-  transition-duration: 1s;
 }
 
 .prjct-btn button:hover {
@@ -934,6 +932,9 @@ form button:hover {
   .projects:hover button {
     visibility: visible;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .projects .project-tags {
