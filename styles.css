@@ -539,7 +539,7 @@ body {
   gap: 3.625rem;
 }
 
- #form-container p {
+#form-container p {
   font-family: "Inter", 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: 700;
@@ -884,25 +884,25 @@ body {
     margin: -6rem auto 1rem auto;
   }
 
-  #projects-container > :first-child:hover {
+  #projects-container> :first-child:hover {
     background-image: url(images/desktop/Img\ Placeholder.png);
     border: 0.15rem #3838d8 solid;
-    cursor:pointer;
+    cursor : pointer;
   }
 
-  #projects-container > :nth-child(2n) {
+  #projects-container> :nth-child(2n) {
     background-image: url(images/desktop/imgbg-2.png);
   }
 
-  #projects-container > :nth-child(3n) {
+  #projects-container> :nth-child(3n) {
     background-image: url(images/desktop/ImgPlaceholder3rdchild.png);
   }
 
-  #projects-container > :nth-child(4n) {
+  #projects-container> :nth-child(4n) {
     background-image: url(images/desktop/ImgPlaceholder4th.png);
   }
 
-  #projects-container > :nth-child(5n) {
+  #projects-container> :nth-child(5n) {
     background-image: url(images/desktop/imgbg-2.png);
   }
 
@@ -928,7 +928,7 @@ body {
 
   .projects:hover button {
     visibility: visible;
-    cursor:pointer;
+    cursor : pointer;
   }
 
   .projects .project-tags {
@@ -951,7 +951,7 @@ body {
 
   .projects:hover {
     border: 0.15rem solid #3838d8;
-    cursor:pointer;
+    cursor : pointer;
   }
 
   #projects-container :nth-child(5n) {
@@ -1052,7 +1052,6 @@ body {
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: 0em;
-    text-align: center;
     color: #172B4D;
     width: 28.45rem;
     height: 16rem;
@@ -1067,7 +1066,6 @@ body {
     height: 28rem;
     width: 40rem;
     margin-right: -4rem;
-    /* margin-top: -0.75rem; */
     position: relative;
   }
 
@@ -1080,7 +1078,7 @@ body {
     height: 3rem;
     width: 39rem;
   }
-  
+
   #form-container input[type=email] {
     width: 39rem;
     height: 3rem;
