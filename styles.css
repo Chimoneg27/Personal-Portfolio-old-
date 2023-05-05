@@ -252,12 +252,6 @@ body {
 }
 
 #pst-btn button:hover {
-  background-color: black;
-  border: 0.25rem solid white;
-  color: white;
-}
-
-#pst-btn button:hover {
   background-color: #fff;
   color: #ff6b00;
   border: 0.1rem #ff6b00 solid;
