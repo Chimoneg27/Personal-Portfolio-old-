@@ -268,7 +268,7 @@ body {
 }
 
 #projects-container {
-  width: 100%;
+  width: 20.45rem;
   height: 130rem;
   padding: 3rem 1.5rem 1rem;
   display: grid;
@@ -278,6 +278,8 @@ body {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects-container :nth-child(5n) {
@@ -291,7 +293,7 @@ body {
 }
 
 .projects {
-  width: 20.45rem;
+  width: 20rem;
   position: relative;
   height: 24.125rem;
   display: flex;
@@ -301,6 +303,7 @@ body {
   gap: 1.5rem;
   background-image: url(images/Img\ Placeholderprojectbgimg.png);
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .projects span {
@@ -324,6 +327,10 @@ body {
   color: white;
   position: absolute;
   top: 2.5rem;
+}
+
+.projects span {
+  visibility: hidden;
 }
 
 .projects p {
@@ -362,27 +369,7 @@ body {
   font-size: 0.94rem;
 }
 
-.prjct-btn {
-  width: 20.45rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.75rem;
-  background-color: #ff6b00;
-  height: 3rem;
-  font-weight: 700;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1.5rem;
-  border: none;
-  color: #faeeee;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-}
-
-.prjct-btn button {
+.projects button {
   font-family: "Inter", 'Times New Roman', Times, serif;
   font-size: 1.065rem;
   font-weight: 700;
@@ -390,24 +377,10 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
-}
-
-.prjct-btn button:hover {
-  background-color: #fff;
-  color: #ff6b00;
-  border: 0.1rem #ff6b00 solid;
-  cursor: pointer;
-}
-
-.prjct-btn button:active {
-  background-color: #E05304;
-  color: #fff;
-  border: 0.1rem #ff6b00 solid;
-}
-
-.prjct-btn button:disabled {
-  background-color: #f4f1f0;
-  color: #3c3a39;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
 }
 
 #about-me {
@@ -506,7 +479,7 @@ body {
 }
 
 .skills-1 {
-  width: 14.065rem;
+  width: 14.375rem;
   height: 17.5rem;
   display: flex;
   flex-direction: column;
@@ -516,7 +489,7 @@ body {
 }
 
 .lang {
-  width: 95%;
+  width: 100%;
   height: 2.25rem;
   display: flex;
   align-items: flex-start;
@@ -530,11 +503,12 @@ body {
   color: white;
   font-weight: 700;
   line-height: 2.75rem;
+  text-align: center;
 }
 
 .lists {
   font-family: "Inter", 'Times New Roman', Times, serif;
-  width: 12rem;
+  width: 100%;
   height: 13.5rem;
   color: #faeeee;
   list-style: none;
@@ -677,7 +651,8 @@ body {
   position: absolute;
   width: 8.375rem;
   height: 0.5rem;
-  left: 32%;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 0.5rem;
 }
 
@@ -916,128 +891,78 @@ body {
     grid-template-rows: repeat(2, 24.125rem);
     gap: 1rem;
     justify-content: center;
-    margin-top: -6rem;
-  }
-
-  #projects-container :first-child h3 {
-    visibility: hidden;
+    margin: -6rem auto 1rem auto;
   }
 
   #projects-container > :first-child:hover {
-    border: solid 0.15rem #2828b8;
-  }
-
-  #projects-container > :first-child .prjct-btn {
-    width: 100%;
-  }
-
-  #projects-container :first-child p {
-    visibility: hidden;
-  }
-
-  #projects-container :first-child .project-tags {
-    visibility: hidden;
-  }
-
-  .projects:first-child {
     background-image: url(images/desktop/Img\ Placeholder.png);
-    background-repeat: no-repeat;
+    border: 0.15rem #3838d8 solid;
   }
 
-  #projects-container :nth-child(2n) h3 {
-    visibility: hidden;
-  }
-
-  #projects-container :nth-child(2n) .prjct-btn {
-    visibility: hidden;
-  }
-
-  #projects-container :nth-child(2n) .project-tags {
-    left: 0.75rem;
-    top: 85%;
-  }
-
-  #projects-container :nth-child(2) p {
-    top: 53%;
-  }
-
-  .projects:nth-child(2n) {
+  #projects-container > :nth-child(2n) {
     background-image: url(images/desktop/imgbg-2.png);
-    background-repeat: no-repeat;
   }
 
-  #projects-container :nth-child(3n) h3 {
-    visibility: hidden;
-  }
-
-  #projects-container :nth-child(3n) p {
-    top: 53%;
-  }
-
-  #projects-container :nth-child(3n) .project-tags {
-    left: 0.75rem;
-    top: 85%;
-  }
-
-  #projects-container :nth-child(3n) .prjct-btn {
-    visibility: hidden;
-  }
-
-  .projects:nth-child(3n) {
+  #projects-container > :nth-child(3n) {
     background-image: url(images/desktop/ImgPlaceholder3rdchild.png);
-    background-repeat: no-repeat;
   }
 
-  #projects-container :nth-child(3n) span {
-    top: 125%;
+  #projects-container > :nth-child(3n) {
+    background-image: url(images/desktop/ImgPlaceholder3rdchild.png);
   }
 
-  .projects:nth-child(4n) {
+  #projects-container > :nth-child(4n) {
     background-image: url(images/desktop/ImgPlaceholder4th.png);
-    background-repeat: no-repeat;
   }
 
-  #projects-container :nth-child(4n) .project-tags {
-    left: 0.75rem;
-    top: 85%;
+  #projects-container > :nth-child(5n) {
+    background-image: url(images/desktop/imgbg-2.png);
   }
 
-  #projects-container :nth-child(4n) p {
-    top: 53%;
+  .projects:hover h3 {
+    visibility: hidden;
   }
 
-  #projects-container :nth-child(4n) h3 {
+  .projects h3 {
+    visibility: hidden;
+  }
+
+  .projects p {
+    top: 50%;
+  }
+
+  .projects:hover p {
+    visibility: hidden;
+  }
+
+  .projects button {
+    visibility: hidden;
+  }
+
+  .projects:hover button {
     visibility: visible;
-    margin-top: 3rem;
+  }
+
+  .projects .project-tags {
+    top: 78%;
   }
 
   .projects span {
     visibility: visible;
     position: absolute;
-    left: 0;
-    top: 90%;
+    left: 0%;
   }
 
-  .projects:nth-child(5n) {
-    background-image: url(images/desktop/imgbg-2.png);
-    background-repeat: no-repeat;
-  }
-
-  #projects-container :nth-child(5n) .prjct-btn {
+  .projects:hover span {
     visibility: hidden;
   }
 
-  #projects-container :nth-child(5n) .project-tags {
-    left: 0.75rem;
-    top: 85%;
-  }
-
-  #projects-container :nth-child(5n) p {
-    top: 53%;
-  }
-
-  #projects-container :nth-child(5n) h3 {
+  .projects:hover .project-tags {
     visibility: hidden;
+  }
+
+  .projects:hover {
+    border: 0.15rem solid #3838d8;
   }
 
   #projects-container :nth-child(5n) {
@@ -1048,6 +973,14 @@ body {
   #projects-container :nth-child(6n) {
     visibility: visible;
     display: flex;
+  }
+
+  #projects-container :nth-child(6n) h3 {
+    visibility: hidden;
+  }
+
+  #projects-container :nth-child(3n) h3 {
+    visibility: hidden;
   }
 
   #about-me {
@@ -1183,5 +1116,9 @@ body {
 
   #footer-line-img {
     visibility: hidden;
+  }
+
+  #footer-container {
+    justify-content: flex-end;
   }
 }
