@@ -340,7 +340,7 @@ body {
   height: 2.5rem;
   position: absolute;
   left: 0.75rem;
-  top: 68%;
+  top: 70%;
 }
 
 .project-tags ul {
@@ -369,12 +369,13 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
-.prjct-btn button:hover {
-  background-color: black;
-  border: 0.25rem solid white;
-  color: white;
+.projects span {
+  visibility: hidden;
 }
 
 #about-me {
