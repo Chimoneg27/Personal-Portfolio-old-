@@ -884,25 +884,25 @@ body {
     margin: -6rem auto 1rem auto;
   }
 
-  #projects-container> :first-child:hover {
+  #projects-container > :first-child:hover {
     background-image: url(images/desktop/Img\ Placeholder.png);
     border: 0.15rem #3838d8 solid;
-    cursor : pointer;
+    cursor: pointer;
   }
 
-  #projects-container> :nth-child(2n) {
+  #projects-container > :nth-child(2n) {
     background-image: url(images/desktop/imgbg-2.png);
   }
 
-  #projects-container> :nth-child(3n) {
+  #projects-container > :nth-child(3n) {
     background-image: url(images/desktop/ImgPlaceholder3rdchild.png);
   }
 
-  #projects-container> :nth-child(4n) {
+  #projects-container > :nth-child(4n) {
     background-image: url(images/desktop/ImgPlaceholder4th.png);
   }
 
-  #projects-container> :nth-child(5n) {
+  #projects-container > :nth-child(5n) {
     background-image: url(images/desktop/imgbg-2.png);
   }
 
@@ -928,7 +928,7 @@ body {
 
   .projects:hover button {
     visibility: visible;
-    cursor : pointer;
+    cursor: pointer;
   }
 
   .projects .project-tags {
@@ -951,7 +951,7 @@ body {
 
   .projects:hover {
     border: 0.15rem solid #3838d8;
-    cursor : pointer;
+    cursor: pointer;
   }
 
   #projects-container :nth-child(5n) {
