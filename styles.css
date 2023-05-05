@@ -247,6 +247,8 @@ body {
   border: none;
   color: #faeeee;
   font-family: "Inter", 'Times New Roman', Times, serif;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 #pst-btn button:hover {
@@ -303,18 +305,12 @@ body {
   gap: 1.5rem;
   background-image: url(images/Img\ Placeholderprojectbgimg.png);
   background-repeat: no-repeat;
-  margin: 0 auto;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
-.projects span {
-  visibility: hidden;
-}
-
-#projects-container :nth-child(3n) h3 {
-  visibility: visible;
-  margin-top: 1rem;
-  width: 100%;
-  margin-left: 1.5rem;
+.projects:hover {
+  transform: scale(1.05);
 }
 
 .projects h3 {
@@ -373,10 +369,12 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 0;
+}
+
+.prjct-btn button:hover {
+  background-color: black;
+  border: 0.25rem solid white;
+  color: white;
 }
 
 #about-me {
@@ -431,6 +429,9 @@ body {
 #resume-btn {
   display: flex;
   width: 20.45rem;
+  align-items: flex-start;
+  transition-property: all;
+  transition-duration: 1s;
 }
 
 #resume-btn button {
@@ -447,21 +448,9 @@ body {
 }
 
 #resume-btn button:hover {
-  background-color: #fff;
-  color: #ff6b00;
-  border: 0.1rem #ff6b00 solid;
-  cursor: pointer;
-}
-
-#resume-btn button:active {
-  background-color: #E05304;
-  color: #fff;
-  border: 0.1rem #ff6b00 solid;
-}
-
-#resume-btn button:disabled {
-  background-color: #f4f1f0;
-  color: #3c3a39;
+  background-color: black;
+  border: 0.25rem solid white;
+  color: white;
 }
 
 #languages {
@@ -596,7 +585,7 @@ body {
   background-color: #fBf8f7;
 }
 
-#form-container form button {
+form button {
   background-color: #f55800;
   color: #f4f5f7;
   font-family: "Inter", 'Times New Roman', Times, serif;
@@ -606,6 +595,14 @@ body {
   height: 3rem;
   border: none;
   padding: 0.75rem;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+form button:hover {
+  background-color: black;
+  border: 0.25rem solid rgb(72, 72, 119);
+  color: white;
 }
 
 #footer-container {
@@ -929,6 +926,9 @@ body {
   .projects:hover button {
     visibility: visible;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .projects .project-tags {
