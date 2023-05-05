@@ -329,10 +329,6 @@ body {
   top: 2.5rem;
 }
 
-.projects span {
-  visibility: hidden;
-}
-
 .projects p {
   width: 18.75rem;
   height: 6.25rem;
@@ -901,10 +897,6 @@ body {
 
   #projects-container > :nth-child(2n) {
     background-image: url(images/desktop/imgbg-2.png);
-  }
-
-  #projects-container > :nth-child(3n) {
-    background-image: url(images/desktop/ImgPlaceholder3rdchild.png);
   }
 
   #projects-container > :nth-child(3n) {
