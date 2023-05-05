@@ -311,27 +311,12 @@ body {
   gap: 1.5rem;
   background-image: url(images/Img\ Placeholderprojectbgimg.png);
   background-repeat: no-repeat;
-<<<<<<< HEAD
   transition-property: all;
   transition-duration: 1s;
 }
 
 .projects:hover {
   transform: scale(1.05);
-=======
-  margin: 0 auto;
-}
-
-.projects span {
-  visibility: hidden;
-}
-
-#projects-container :nth-child(3n) h3 {
-  visibility: visible;
-  margin-top: 1rem;
-  width: 100%;
-  margin-left: 1.5rem;
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
 }
 
 .projects h3 {
@@ -390,7 +375,6 @@ body {
   border: none;
   padding: 0.75rem;
   background-color: #ff6b00;
-<<<<<<< HEAD
   transition-property: all;
   transition-duration: 1s;
 }
@@ -399,12 +383,6 @@ body {
   background-color: black;
   border: 0.25rem solid white;
   color: white;
-=======
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 0;
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
 }
 
 #about-me {
@@ -459,12 +437,9 @@ body {
 #resume-btn {
   display: flex;
   width: 20.45rem;
-<<<<<<< HEAD
   align-items: flex-start;
   transition-property: all;
   transition-duration: 1s;
-=======
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
 }
 
 #resume-btn button {
@@ -481,27 +456,9 @@ body {
 }
 
 #resume-btn button:hover {
-<<<<<<< HEAD
   background-color: black;
   border: 0.25rem solid white;
   color: white;
-=======
-  background-color: #fff;
-  color: #ff6b00;
-  border: 0.1rem #ff6b00 solid;
-  cursor: pointer;
-}
-
-#resume-btn button:active {
-  background-color: #E05304;
-  color: #fff;
-  border: 0.1rem #ff6b00 solid;
-}
-
-#resume-btn button:disabled {
-  background-color: #f4f1f0;
-  color: #3c3a39;
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
 }
 
 #languages {
@@ -636,11 +593,7 @@ body {
   background-color: #fBf8f7;
 }
 
-<<<<<<< HEAD
 form button {
-=======
-#form-container form button {
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
   background-color: #f55800;
   color: #f4f5f7;
   font-family: "Inter", 'Times New Roman', Times, serif;
@@ -827,9 +780,6 @@ form button:hover {
     width: 100%;
     height: inherit;
   }
-<<<<<<< HEAD
-}
-=======
 
   .works-title {
     width: 75rem;
@@ -1169,4 +1119,3 @@ form button:hover {
     padding-bottom: 0.5rem;
   }
 }
->>>>>>> f0346cdecfdb4bcf200dd99673c872ba283b7fe8
