@@ -539,15 +539,7 @@ body {
   gap: 3.625rem;
 }
 
-#form-intro {
-  width: 20.375rem;
-  height: 16.32rem;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#form-intro p {
+ #form-container p {
   font-family: "Inter", 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: 700;
@@ -557,7 +549,7 @@ body {
   color: #172B4D;
 }
 
-#real-form form {
+#form-container form {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -567,7 +559,7 @@ body {
   width: 20.375rem;
 }
 
-#real-form input[type=text] {
+#form-container input[type=text] {
   font-family: "Inter", 'Times New Roman', Times, serif;
   color: #979493;
   height: 3rem;
@@ -580,7 +572,7 @@ body {
   padding: 0.5rem;
 }
 
-#real-form input[type=email] {
+#form-container input[type=email] {
   font-family: "Inter", 'Times New Roman', Times, serif;
   color: #979493;
   width: 100%;
@@ -593,7 +585,7 @@ body {
   padding: 0.5rem;
 }
 
-#real-form form textarea {
+#form-container form textarea {
   width: 19.125rem;
   height: 7.25rem;
   font-family: "Inter", 'Times New Roman', Times, serif;
@@ -604,7 +596,7 @@ body {
   background-color: #fBf8f7;
 }
 
-#real-form form button {
+#form-container form button {
   background-color: #f55800;
   color: #f4f5f7;
   font-family: "Inter", 'Times New Roman', Times, serif;
@@ -798,6 +790,8 @@ body {
 
   #works-container {
     height: 115rem;
+    width: 75.25rem;
+    margin: 0 auto;
     gap: 2rem;
   }
 
@@ -880,7 +874,7 @@ body {
   }
 
   #projects-container {
-    width: 73rem;
+    width: 72.25rem;
     height: 55rem;
     display: grid;
     grid-template-columns: repeat(3, 20.44rem);
@@ -893,6 +887,7 @@ body {
   #projects-container > :first-child:hover {
     background-image: url(images/desktop/Img\ Placeholder.png);
     border: 0.15rem #3838d8 solid;
+    cursor:pointer;
   }
 
   #projects-container > :nth-child(2n) {
@@ -933,6 +928,7 @@ body {
 
   .projects:hover button {
     visibility: visible;
+    cursor:pointer;
   }
 
   .projects .project-tags {
@@ -955,6 +951,7 @@ body {
 
   .projects:hover {
     border: 0.15rem solid #3838d8;
+    cursor:pointer;
   }
 
   #projects-container :nth-child(5n) {
@@ -1040,67 +1037,69 @@ body {
 
   #form-container {
     width: 72.75rem;
-    height: 30rem;
-    padding: 1rem 0 0 0;
+    height: 32rem;
+    padding: 0;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin: 3rem auto 1rem auto;
-    gap: 1rem;
+    gap: 2rem;
   }
 
-  #form-intro {
-    width: 26rem;
-    height: 70%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: -9.5rem;
-  }
-
-  #form-intro p {
-    font-size: 2.5rem;
+  #form-container p {
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #172B4D;
+    width: 28.45rem;
+    height: 16rem;
     text-align: left;
   }
 
-  #real-form form {
+  #form-container form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 28rem;
     width: 40rem;
     margin-right: -4rem;
-    margin-top: -0.75rem;
+    /* margin-top: -0.75rem; */
     position: relative;
   }
 
-  #real-form form textarea {
-    width: 40rem;
+  #form-container form textarea {
+    width: 38rem;
     height: 6.5rem;
   }
 
-  #real-form form button {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  #form-container input[type=text] {
+    height: 3rem;
+    width: 39rem;
+  }
+  
+  #form-container input[type=email] {
+    width: 39rem;
+    height: 3rem;
   }
 
-  #real-form form button:hover {
+  #form-container form button:hover {
     background-color: #fff;
     color: #ff6b00;
     border: 0.1rem #ff6b00 solid;
     cursor: pointer;
   }
 
-  #real-form form button:active {
+  #form-container form button:active {
     background-color: #E05304;
     color: #fff;
     border: 0.1rem #ff6b00 solid;
   }
 
-  #real-form form button:disabled {
+  #form-container form button:disabled {
     background-color: #f4f1f0;
     color: #3c3a39;
     border: 0.1rem #504945 solid;
@@ -1112,5 +1111,8 @@ body {
 
   #footer-container {
     justify-content: flex-end;
+    margin-bottom: 1rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
   }
 }
