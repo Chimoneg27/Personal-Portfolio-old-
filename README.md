@@ -128,8 +128,8 @@ npx eslint .
 
 ### Deployment <a name="deployment"></a>
 
-You can deploy this project using: GitHub Pages,
-- I will mkae use of GitHub Pages to deploy my website. My project still needs to be reviewd before deployment.
+- [Garvin Chimone Personal Portfoilo](https://chimoneg27.github.io/Personal-Portfolio/)
+- Deployed with github pages
 - For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
