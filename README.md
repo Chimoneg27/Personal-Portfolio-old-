@@ -8,6 +8,7 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+      - [Outline Walkthrough](#outline-walkthrough)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -77,6 +78,10 @@ git clone git@github.com:Chimoneg27/Personal-Portfolio.git
 
 **``you@your-Pc-name:~$ cd Personal-Portfolio``**
 
+### Outline Walkthrough
+
+[Here is a brief outline of my project](https://www.loom.com/share/d4f7d347df904075b056346c9f7401f2)
+Available on loom,
 ### Install
 
 To install all dependencies, run:
