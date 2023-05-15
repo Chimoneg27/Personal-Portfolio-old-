@@ -457,8 +457,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  background-image: url(images/illustration-about-me-mobilebgimg2.png),
-    url(images/Vector\ 4vector2.svg);
+  background-image: url(images/illustration-about-me-mobilebgimg2.png), url(images/Vector\ 4vector2.svg);
   background-repeat: no-repeat;
   background-position: bottom 5% right 0%, bottom 0% center;
 }
@@ -688,7 +687,8 @@ form button:hover {
   width: 1.125rem;
   height: 1.25rem;
   color: #334a72;
-  filter: invert(20%) sepia(12%) saturate(152%) hue-rotate(336deg)
+  filter:
+    invert(20%) sepia(12%) saturate(152%) hue-rotate(336deg)
     brightness(93%) contrast(87%);
 }
 
@@ -704,7 +704,8 @@ form button:hover {
 #real-form form button:hover {
   border: 1px solid #f55800;
   color: #faeeee;
-  background: linear-gradient(0deg, #fff5e1, #fff5e1),
+  background:
+    linear-gradient(0deg, #fff5e1, #fff5e1),
     linear-gradient(0deg, #f55800, #f55800);
 }
 
@@ -742,17 +743,6 @@ form button:hover {
   #toolbar a {
     text-decoration: none;
     color: #fff;
-  }
-
-  .nav-menu {
-    display: flex;
-    width: 10rem;
-    position: absolute;
-    gap: 0.5rem;
-    font-size: 1rem;
-    right: 6rem;
-    bottom: 1.5rem;
-    align-items: center;
   }
 
   .hamburger {
@@ -1061,7 +1051,8 @@ form button:hover {
   }
 
   #about-me {
-    background-image: url(images/desktop/illustration-about\ me.png),
+    background-image:
+      url(images/desktop/illustration-about\ me.png),
       url(images/desktop/Vector-line\ 4.svg);
     background-repeat: no-repeat;
     background-position: bottom 95% left 100%, bottom 54% center;
