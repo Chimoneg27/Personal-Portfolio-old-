@@ -34,7 +34,7 @@ body {
 
 .nav-menu li {
   list-style: none;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 2rem;
   font-weight: 700;
   border-bottom: 1px solid #dbd8d7;
@@ -62,11 +62,10 @@ body {
 
 .nav-link {
   margin: 16px 0;
-
 }
 
-.nav-bar a{
-  color: #fff5E1;
+.nav-bar a {
+  color: #fff5e1;
   text-decoration: none;
 }
 
@@ -100,7 +99,7 @@ body {
 }
 
 #my-logo {
-  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
   font-size: 1.125;
   font-weight: 700;
   line-height: 1.5rem;
@@ -140,7 +139,7 @@ body {
 }
 
 #headline h1 {
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 4rem;
@@ -150,7 +149,7 @@ body {
 }
 
 #headline h2 {
-  font-family: "Roboto", 'Times New Roman', Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
@@ -160,7 +159,7 @@ body {
 }
 
 #headline p {
-  font-family: "Poppins", 'Times New Roman', Times, serif;
+  font-family: "Poppins", "Times New Roman", Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -204,7 +203,7 @@ body {
 .works-title h2 {
   width: 20.375rem;
   height: 5.125rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 2.5rem;
   line-height: 3.25rem;
@@ -242,7 +241,7 @@ body {
 #stories-title {
   height: 2.25rem;
   width: 20.375rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.75rem;
@@ -250,7 +249,7 @@ body {
 }
 
 #stories-text {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 1.5rem;
   font-size: 1rem;
@@ -282,7 +281,7 @@ body {
   font-weight: 500;
   height: 2.5rem;
   padding: 0.625rem 0.75rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   border: solid 0.065rem #8993a4;
 }
 
@@ -302,7 +301,7 @@ body {
   line-height: 1.5rem;
   border: none;
   color: #faeeee;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   transition-property: all;
   transition-duration: 1s;
 }
@@ -315,7 +314,7 @@ body {
 }
 
 #pst-btn button:active {
-  background-color: #E05304;
+  background-color: #e05304;
   color: #fff;
   border: 0.1rem #ff6b00 solid;
 }
@@ -375,7 +374,7 @@ body {
   font-weight: 400;
   font-size: 2rem;
   line-height: 2.75rem;
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   color: white;
   position: absolute;
   top: 2.5rem;
@@ -384,7 +383,7 @@ body {
 .projects p {
   width: 18.75rem;
   height: 6.25rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: white;
@@ -405,7 +404,7 @@ body {
   gap: 1rem;
   list-style: none;
   color: white;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   width: 15.438rem;
   height: 2.5rem;
 }
@@ -418,7 +417,7 @@ body {
 }
 
 .projects button {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 1.065rem;
   font-weight: 700;
   color: white;
@@ -456,13 +455,14 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
-  background-image: url(images/illustration-about-me-mobilebgimg2.png), url(images/Vector\ 4vector2.svg);
+  background-image: url(images/illustration-about-me-mobilebgimg2.png),
+    url(images/Vector\ 4vector2.svg);
   background-repeat: no-repeat;
   background-position: bottom 5% right 0%, bottom 0% center;
 }
 
 #abt-title h2 {
-  font-family: "Crete Round", 'Times New Roman', Times, serif;
+  font-family: "Crete Round", "Times New Roman", Times, serif;
   font-size: 4.5rem;
   line-height: 5.5rem;
   font-weight: 400;
@@ -472,7 +472,7 @@ body {
 }
 
 #abt-text p {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -501,7 +501,7 @@ body {
   line-height: 1.5rem;
   border: none;
   color: #faeeee;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
 }
 
 #resume-btn button:hover {
@@ -541,7 +541,7 @@ body {
 .lang li {
   list-style: none;
   font-size: 2rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   color: white;
   font-weight: 700;
   line-height: 2.75rem;
@@ -549,7 +549,7 @@ body {
 }
 
 .lists {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   width: 100%;
   height: 13.5rem;
   color: #faeeee;
@@ -586,13 +586,13 @@ body {
 }
 
 #form-container p {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.75rem;
   letter-spacing: 0em;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 #form-container form {
@@ -605,8 +605,8 @@ body {
   width: 20.375rem;
 }
 
-#form-container input[type=text] {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+#form-container input[type="text"] {
+  font-family: "Inter", "Times New Roman", Times, serif;
   color: #979493;
   height: 3rem;
   width: 100%;
@@ -618,8 +618,8 @@ body {
   padding: 0.5rem;
 }
 
-#form-container input[type=email] {
-  font-family: "Inter", 'Times New Roman', Times, serif;
+#form-container input[type="email"] {
+  font-family: "Inter", "Times New Roman", Times, serif;
   color: #979493;
   width: 100%;
   height: 3rem;
@@ -634,18 +634,18 @@ body {
 #form-container form textarea {
   width: 19.125rem;
   height: 7.25rem;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-weight: 400;
   line-height: 1.5rem;
   font-size: 1rem;
   border: none;
-  background-color: #fBf8f7;
+  background-color: #fbf8f7;
 }
 
 form button {
   background-color: #f55800;
   color: #f4f5f7;
-  font-family: "Inter", 'Times New Roman', Times, serif;
+  font-family: "Inter", "Times New Roman", Times, serif;
   font-size: 1.25rem;
   font-weight: 700;
   width: 10rem;
@@ -686,7 +686,8 @@ form button:hover {
   width: 1.125rem;
   height: 1.25rem;
   color: #334a72;
-  filter: invert(20%) sepia(12%) saturate(152%) hue-rotate(336deg) brightness(93%) contrast(87%);
+  filter: invert(20%) sepia(12%) saturate(152%) hue-rotate(336deg)
+    brightness(93%) contrast(87%);
 }
 
 #footer-line-img {
@@ -701,7 +702,8 @@ form button:hover {
 #real-form form button:hover {
   border: 1px solid #f55800;
   color: #faeeee;
-  background: linear-gradient(0deg, #fff5E1, #fff5E1), linear-gradient(0deg, #F55800, #F55800);
+  background: linear-gradient(0deg, #fff5e1, #fff5e1),
+    linear-gradient(0deg, #f55800, #f55800);
 }
 
 #real-form form button:enabled {
@@ -735,21 +737,52 @@ form button:hover {
     z-index: 9999;
   }
 
-      #toolbar a {
-      text-decoration: none;
-      color: #fff;
-    }
+  #toolbar a {
+    text-decoration: none;
+    color: #fff;
+  }
 
-    .nav-menu {
-      display: flex;
-      width: 10rem;
-      position: absolute;
-      gap: 0.5rem;
-      font-size: 1rem;
-      right: 6rem;
-      bottom: 1.5rem;
-      align-items: center;
-    }
+  .nav-menu {
+    display: flex;
+    width: 10rem;
+    position: absolute;
+    gap: 0.5rem;
+    font-size: 1rem;
+    right: 6rem;
+    bottom: 1.5rem;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: none;
+    visibility: hidden;
+  }
+
+  #toolbar li:last-child {
+    visibility: initial;
+  }
+
+  .nav-desktop {
+    visibility: initial;
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+  }
+
+  .nav-desktop li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Inter", "Times New Roman", Times, serif;
+  }
+
+  .nav-menu {
+    visibility: hidden;
+  }
+
+  .nav-menu.active {
+    visibility: hidden;
+  }
 
   #headline {
     color: #fff;
@@ -785,11 +818,11 @@ form button:hover {
     font-weight: 400;
     align-self: center;
     line-height: 5.125rem;
-    font-family: "Crete Round", 'Times New Roman', Times, serif;
+    font-family: "Crete Round", "Times New Roman", Times, serif;
   }
 
   #headline h2 {
-    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-family: "Inter", "Times New Roman", Times, serif;
     font-size: 2rem;
     line-height: 2.75rem;
     align-items: center;
@@ -800,7 +833,7 @@ form button:hover {
   }
 
   #headline p {
-    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-family: "Inter", "Times New Roman", Times, serif;
     font-size: 1.25rem;
     line-height: 2rem;
     font-weight: 400;
@@ -906,7 +939,7 @@ form button:hover {
 
   #stories-text {
     width: 28rem;
-    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-family: "Inter", "Times New Roman", Times, serif;
     text-align: justify;
     line-height: 1.75rem;
     font-size: 1.25rem;
@@ -1026,7 +1059,8 @@ form button:hover {
   }
 
   #about-me {
-    background-image: url(images/desktop/illustration-about\ me.png), url(images/desktop/Vector-line\ 4.svg);
+    background-image: url(images/desktop/illustration-about\ me.png),
+      url(images/desktop/Vector-line\ 4.svg);
     background-repeat: no-repeat;
     background-position: bottom 95% left 100%, bottom 54% center;
     height: 70rem;
@@ -1062,7 +1096,7 @@ form button:hover {
   }
 
   #resume-btn button:active {
-    background-color: #E05304;
+    background-color: #e05304;
     color: #fff;
     border: 0.1rem #ff6b00 solid;
   }
@@ -1100,12 +1134,12 @@ form button:hover {
   }
 
   #form-container p {
-    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-family: "Inter", "Times New Roman", Times, serif;
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: 0em;
-    color: #172B4D;
+    color: #172b4d;
     width: 28.45rem;
     height: 16rem;
     text-align: left;
@@ -1127,12 +1161,12 @@ form button:hover {
     height: 6.5rem;
   }
 
-  #form-container input[type=text] {
+  #form-container input[type="text"] {
     height: 3rem;
     width: 39rem;
   }
 
-  #form-container input[type=email] {
+  #form-container input[type="email"] {
     width: 39rem;
     height: 3rem;
   }
@@ -1145,7 +1179,7 @@ form button:hover {
   }
 
   #form-container form button:active {
-    background-color: #E05304;
+    background-color: #e05304;
     color: #fff;
     border: 0.1rem #ff6b00 solid;
   }
