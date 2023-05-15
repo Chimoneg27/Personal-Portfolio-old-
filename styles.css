@@ -26,6 +26,8 @@ body {
   padding: 1rem;
   background-color: #3c3a39;
   z-index: 1000;
+  position: fixed;
+  top: 0;
 }
 
 .nav-desktop {
@@ -44,7 +46,7 @@ body {
   display: flex;
   position: fixed;
   left: -100%;
-  top: 1rem;
+  top: 0;
   gap: 2rem;
   flex-direction: column;
   background-color: #3c3a39;
