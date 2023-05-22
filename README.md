@@ -165,7 +165,7 @@ npx eslint .
 👤 **Garvin**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
-- Twitter: [@Chimoneg_27](https://twitter.com/Chimoneg_27)
+- Twitter: [@CGarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
 ## 🔭 Future Features <a name="future-features"></a>
