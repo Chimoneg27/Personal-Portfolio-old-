@@ -26,8 +26,22 @@
 
     This is the my very first project. My Personal Portfolio. This project will allow future employers to have a look at my skills as a desirable software developer. This project is meant to showcase not only my skills but also my individuality. 
 
-## 🛠 Built With <a name="build"></a>
+## 🛠 Built With <a name="built-with"></a>
+
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+
 ### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
 <details>
   <summary>Client</summary>
@@ -42,7 +56,8 @@
 
 - **Responsive Design.**
 - **Mobile first approach to design.**
-- **Mobile only(at the moment)**
+- **Available for both mobile and desktop version**
+- **Built using DOM**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +165,7 @@ npx eslint .
 👤 **Garvin**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
-- Twitter: [@Chimoneg_27](https://twitter.com/Chimoneg_27)
+- Twitter: [@CGarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
 ## 🔭 Future Features <a name="future-features"></a>
