@@ -254,6 +254,12 @@ body {
   margin-left: -13.5rem;
 }
 
+#text-info button:hover{
+  background-color: #fff;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
 #stories-title {
   height: 2.25rem;
   width: 20.375rem;
