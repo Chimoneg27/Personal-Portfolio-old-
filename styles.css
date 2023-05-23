@@ -296,6 +296,7 @@ body {
   font-family: "Inter", 'Times New Roman', Times, serif;
   color: #f4f1f0;
   font-weight: 700;
+  margin-left: -20.5rem;
 }
 
 #text-info button:hover {
