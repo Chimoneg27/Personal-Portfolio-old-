@@ -234,23 +234,11 @@ body {
   border: none;
   padding: 1rem;
   width: 7.75rem;
-#text-info button {
-  border: none;
-
-  padding: 1rem;
-  width: 7.75rem;
   height: 3rem;
   background-color: #ff6b00;
   font-family: "Inter", 'Times New Roman', Times, serif;
-  color: #f4f1f0;
-  background-color: #ff6b00;
-  font-family: "Inter", 'Times New Roman', Times, serif;
-  color: #f4f1f0;
   font-weight: 700;
   margin-left: -20.5rem;
-
-  color: #faeeee;
-  font-family: "Inter", "Times New Roman", Times, serif;
   transition-property: all;
   transition-duration: 1s;
 }
@@ -261,12 +249,6 @@ body {
   border: 1px solid #ff6b00;
   transition: 1s ease-in-out;
   cursor: pointer;
-}
-
-#pst-btn button:active {
-  background-color: #e05304;
-  color: #fff;
-  border: 0.1rem #ff6b00 solid;
 }
 
 #projects-container {
