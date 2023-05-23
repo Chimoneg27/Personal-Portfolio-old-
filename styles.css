@@ -755,7 +755,7 @@ form button:hover {
   .nav-menu.active {
     visibility: hidden;
   }
-  
+
   #toolbar a {
     text-decoration: none;
     color: #fff;
