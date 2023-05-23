@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -21,12 +25,80 @@ body {
   height: 3rem;
   padding: 1rem;
   background-color: #3c3a39;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
 }
 
-#toolbar nav {
-  display: none;
+.nav-desktop {
+  visibility: hidden;
 }
 
+.nav-menu li {
+  list-style: none;
+  font-family: "Inter", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.nav-menu {
+  display: flex;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  gap: 2rem;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 100vh;
+  padding: 5rem 2rem;
+  text-align: start;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-link {
+  margin: 18px 0 18px 12px;
+}
+
+.nav-bar a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 16px 5px 0;
+  transition: all 0.5s ease;
+  background-color: #67798e;
+}
+
+.hamburger {
+  display: block;
+  position: fixed;
+  top: 0.65rem;
+  right: 0.5rem;
+  z-index: 1000;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 #my-logo {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   font-size: 1.125;
@@ -35,22 +107,6 @@ body {
   letter-spacing: 0em;
   text-align: center;
   color: #faeeee;
-}
-
-#union-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center, space-around;
-  align-items: center;
-  width: 1.5rem;
-  height: 1.25rem;
-}
-
-.fa-solid {
-  font-size: 1.45rem;
-  color: #fff;
-  width: 100%;
-  height: 90%;
 }
 
 #headline-container {
@@ -659,24 +715,45 @@ form button:hover {
     align-items: center;
     width: 100%;
     height: 4.5rem;
+    z-index: 9999;
   }
 
-  #toolbar nav {
-    display: initial;
-  }
-
-  #toolbar ul {
-    display: flex;
-    width: 15rem;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: "Inter", 'Times New Roman', Times, serif;
-    gap: 0.5rem;
-    list-style: none;
+  #toolbar a {
     text-decoration: none;
-    margin-right: 2rem;
+    color: #fff;
   }
 
+  .hamburger {
+    display: none;
+    visibility: hidden;
+  }
+
+  #toolbar li:last-child {
+    visibility: initial;
+  }
+
+  .nav-desktop {
+    visibility: initial;
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+  }
+
+  .nav-desktop li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Inter", "Times New Roman", Times, serif;
+  }
+
+  .nav-menu {
+    visibility: hidden;
+  }
+
+  .nav-menu.active {
+    visibility: hidden;
+  }
+  
   #toolbar a {
     text-decoration: none;
     color: #fff;
