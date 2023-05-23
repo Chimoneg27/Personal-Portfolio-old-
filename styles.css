@@ -27,6 +27,72 @@ body {
   display: none;
 }
 
+.nav-menu li {
+  list-style: none;
+  font-family: "Inter", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.nav-menu {
+  display: flex;
+  position: fixed;
+  left: -100%;
+  top: 0;
+  gap: 2rem;
+  flex-direction: column;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 90vh;
+  padding: 5rem 2rem;
+  text-align: start;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-link {
+  margin: 18px 0 18px 12px;
+}
+
+.nav-bar a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 16px 5px 0;
+  transition: all 0.5s ease;
+  background-color: #67798e;
+}
+
+.hamburger {
+  display: block;
+  position: fixed;
+  top: 0.65rem;
+  right: 0.5rem;
+  z-index: 1000;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 #my-logo {
   font-family: 'Roboto', 'Times New Roman', Times, serif;
   font-size: 1.125;
