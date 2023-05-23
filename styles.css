@@ -287,31 +287,29 @@ body {
   border: solid 0.065rem #8993a4;
 }
 
-#pst-btn {
-  display: flex;
-}
-
-#pst-btn button {
-  position: absolute;
-  left: 0;
-  padding: 0.75rem;
-  background-color: #ff6b00;
-  width: 7.75;
-  height: 3rem;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.5rem;
+#text-info button {
   border: none;
+
+  padding: 1rem;
+  width: 7.75rem;
+  height: 3rem;
+  background-color: #ff6b00;
+  font-family: "Inter", 'Times New Roman', Times, serif;
+  color: #f4f1f0;
+  font-weight: 700;
+  margin-left: -20.5rem;
+
   color: #faeeee;
   font-family: "Inter", "Times New Roman", Times, serif;
   transition-property: all;
   transition-duration: 1s;
 }
 
-#pst-btn button:hover {
-  background-color: #fff;
+#text-info button:hover {
   color: #ff6b00;
-  border: 0.1rem #ff6b00 solid;
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  transition: 1s ease-in-out;
   cursor: pointer;
 }
 
