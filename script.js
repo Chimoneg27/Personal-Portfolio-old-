@@ -11,3 +11,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         hamburger.classList.remove("active");
         navMenu.classList.remove("active");
 }))
+
+const fullName = document.querySelector('#fullName');
+const email = document.querySelector('#email-input');
+const textInput = document.querySelector('#textArea');
