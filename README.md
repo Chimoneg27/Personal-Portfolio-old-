@@ -24,24 +24,14 @@
 
 **[Personal Portfolio]** 
 
-    This is the my very first project. My Personal Portfolio. This project will allow future employers to have a look at my skills as a desirable software developer. This project is meant to showcase not only my skills but also my individuality. 
+- This is the my very first project. My Personal Portfolio. 
+- This project will allow future employers to have a look at my skills as a desirable software developer. 
+- This project is meant to showcase not only my skills but also my individuality. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
-</details>
 
 <details>
   <summary>Client</summary>
@@ -168,6 +158,12 @@ npx eslint .
 - Twitter: [@CGarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
+
+👤 **Shinn Thant Swam Ye**
+
+- GitHub: [@Pi1998](https://github.com/Pi1998)
+- LinkedIn: [Shinn Thant Swam Ye](https://www.linkedin.com/in/shinn-thant-swam-ye-617a66253/)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Toolbar with logo and working hamburger button]**
@@ -190,6 +186,6 @@ I would like to thank my coding partner Yonas Henok for helping me when I got st
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Chimoneg27/Personal-Portfolio/blob/main/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
