@@ -185,3 +185,36 @@ projectSection.innerHTML = `
 </div>
 </section>
 `;
+
+const modalOne = `
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title-modal">Multi Post Stories</div>
+      <span class="title2">Keeping track of hundreds of components website</span>
+      <button class="close-button" onclick="modal1Close()">&times;</button>
+    </div>
+    <ul class="modal-list">
+        <li>HTML</li>
+        <li>Bootstrap</li>
+        <li>Ruby on Rails</li>
+      </ul>
+  <div class="modal-body">
+    <div class="side-left">
+      <img src="images/Snapshoot Portfolio.png" alt="modal-img-mobile">
+      <img src="images/desktop/Snapshoot Portfoliomodal-desktop.png" alt="desktop-modal-img">
+    </div>
+    <div class="side-right">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+      </p>
+      <br>
+      <p class="paragraph-2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essential.
+      </p>
+      <div class="modal-btns">
+        <button>See live <img src="images/Icon-modal-btn.svg" alt="see-live-icon"></button>
+        <button>See source <img src="images/Vector-modal-btn.svg" alt="modal-src"></button>
+      </div>
+    </div>
+  </div>
+`;
