@@ -254,7 +254,7 @@ body {
   margin-left: -13.5rem;
 }
 
-#text-info button:hover{
+#text-info button:hover {
   background-color: #fff;
   color: #ff6b00;
   border: 1px solid #ff6b00;
@@ -680,6 +680,10 @@ form button:hover {
   margin-left: auto;
   margin-right: auto;
   bottom: 0.5rem;
+}
+
+#error-text {
+  display: none;
 }
 
 #real-form form button:hover {
