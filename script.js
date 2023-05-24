@@ -42,4 +42,3 @@ textarea.addEventListener('input', () => {
 
 fullName.addEventListener('input', saveFormInfo);
 email.addEventListener('input', saveFormInfo);
-  }));
