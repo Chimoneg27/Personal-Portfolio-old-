@@ -277,3 +277,18 @@ function modal1Close() {
   const projectOne = document.createElement('div');
   projectOne.innerHTML = prjctOneModal;
   projectOne.classList.add('close-one');
+
+  function openPrjct1() {
+    worksContainer.prepend(projectOne);
+    projectOne.classList.remove('close-one');
+    projectOne.classList.add('.modal-box');
+    document.body.classList.add('modal-active');
+    document.getElementById("overlay").style.display = "block";
+  }
+  function closePrjct1() {
+    worksContainer.removeChild(projectOne)
+    projectOne.classList.remove('.modal-box');
+    projectOne.classList.add('close-one');
+    document.body.classList.remove('modal-active');
+    document.getElementById("overlay").style.display = "none";
+  }
