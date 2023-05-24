@@ -15,3 +15,10 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 const fullName = document.querySelector('#fullName');
 const email = document.querySelector('#email-input');
 const textInput = document.querySelector('#textArea');
+
+const savedInfo = JSON.parse(localStorage.getItem('myFormInfo'));
+if (savedInfo) {
+  fullName.value = savedInfo.name;
+  email.value = savedInfo.email;
+  textInput.value = savedInfo.message;
+}
