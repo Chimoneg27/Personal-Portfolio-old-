@@ -285,10 +285,16 @@ function modal1Close() {
     document.body.classList.add('modal-active');
     document.getElementById("overlay").style.display = "block";
   }
+
   function closePrjct1() {
     worksContainer.removeChild(projectOne)
     projectOne.classList.remove('.modal-box');
     projectOne.classList.add('close-one');
     document.body.classList.remove('modal-active');
     document.getElementById("overlay").style.display = "none";
-  }
+}
+
+modal1Close();
+modal1Open();
+openPrjct1();
+closePrjct1();
