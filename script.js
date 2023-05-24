@@ -1,16 +1,16 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
 
-document.querySelectorAll(".nav-link").forEach(n => n.
-    addEventListener("click", () => {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-}))
+document.querySelectorAll('.nav-link').forEach((n) => n
+  .addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  }));
 
 const fullName = document.querySelector('#fullName');
 const email = document.querySelector('#email-input');
@@ -24,14 +24,14 @@ if (savedInfo) {
 }
 
 function saveFormInfo() {
-    const myFormInfo = {
-      name: fullName.value,
-      email: email.value,
-      text: textInput.value,
-    }
-    localStorage.setItem('myFormInfo', JSON.stringify(myFormInfo));
+  const myFormInfo = {
+    name: fullName.value,
+    email: email.value,
+    text: textInput.value,
   };
-  
-  fullName.addEventListener('input', saveFormInfo);
-  email.addEventListener('input', saveFormInfo);
-  textInput.addEventListener('input', saveFormInfo);
+  localStorage.setItem('myFormInfo', JSON.stringify(myFormInfo));
+}
+
+fullName.addEventListener('input', saveFormInfo);
+email.addEventListener('input', saveFormInfo);
+textInput.addEventListener('input', saveFormInfo);
