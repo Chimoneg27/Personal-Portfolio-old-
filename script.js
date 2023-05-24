@@ -218,3 +218,16 @@ const modalOne = `
     </div>
   </div>
 `;
+
+const worksContainer = document.querySelector(".dynamic-container");
+const worksModal = document.createElement('div');
+worksModal.innerHTML = modalOne;
+worksModal.classList.add('close-one');
+
+function modal1Open() {
+  worksContainer.prepend(worksModal);
+  worksModal.classList.remove('close-one');
+  worksModal.classList.add('.modal-box');
+  document.body.classList.add('modal-active');
+  document.getElementById("overlay").style.display = "block";
+}
