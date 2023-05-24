@@ -231,3 +231,12 @@ function modal1Open() {
   document.body.classList.add('modal-active');
   document.getElementById("overlay").style.display = "block";
 }
+
+function modal1Close() {
+    worksModal.classList.remove('.modal-box');
+    worksModal.classList.add('close-one');
+    worksContainer.removeChild(worksModal);
+    document.body.classList.remove('modal-active');
+    document.getElementById("overlay").style.display = "none";
+  }
+  
