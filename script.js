@@ -1,18 +1,18 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-})
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
 
-document.querySelectorAll(".nav-link").forEach(n => n.
-    addEventListener("click", () => {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-}))
+document.querySelectorAll('.nav-link').forEach((n) => n
+  .addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  }));
 
-const projectContainer = document.querySelector(".dynamic-container");
+const projectContainer = document.querySelector('.dynamic-container');
 const projectSection = document.createElement('div');
 projectContainer.appendChild(projectSection);
 projectSection.innerHTML = `
@@ -219,7 +219,7 @@ const modalOne = `
   </div>
 `;
 
-const worksContainer = document.querySelector(".dynamic-container");
+const worksContainer = document.querySelector('.dynamic-container');
 const worksModal = document.createElement('div');
 worksModal.innerHTML = modalOne;
 worksModal.classList.add('close-one');
@@ -229,18 +229,18 @@ function modal1Open() {
   worksModal.classList.remove('close-one');
   worksModal.classList.add('.modal-box');
   document.body.classList.add('modal-active');
-  document.getElementById("overlay").style.display = "block";
+  document.getElementById('overlay').style.display = 'block';
 }
 
 function modal1Close() {
-    worksModal.classList.remove('.modal-box');
-    worksModal.classList.add('close-one');
-    worksContainer.removeChild(worksModal);
-    document.body.classList.remove('modal-active');
-    document.getElementById("overlay").style.display = "none";
-  }
-  
-  const prjctOneModal = `
+  worksModal.classList.remove('.modal-box');
+  worksModal.classList.add('close-one');
+  worksContainer.removeChild(worksModal);
+  document.body.classList.remove('modal-active');
+  document.getElementById('overlay').style.display = 'none';
+}
+
+const prjctOneModal = `
   <div class="modal" id="prjct-1-modal">
   <div class="modal-header">
     <div class="title-modal">Multi Post Stories</div>
@@ -273,25 +273,25 @@ function modal1Close() {
     </div>
   </div>
   </div>
-  `
-  const projectOne = document.createElement('div');
-  projectOne.innerHTML = prjctOneModal;
+  `;
+const projectOne = document.createElement('div');
+projectOne.innerHTML = prjctOneModal;
+projectOne.classList.add('close-one');
+
+function openPrjct1() {
+  worksContainer.prepend(projectOne);
+  projectOne.classList.remove('close-one');
+  projectOne.classList.add('.modal-box');
+  document.body.classList.add('modal-active');
+  document.getElementById('overlay').style.display = 'block';
+}
+
+function closePrjct1() {
+  worksContainer.removeChild(projectOne);
+  projectOne.classList.remove('.modal-box');
   projectOne.classList.add('close-one');
-
-  function openPrjct1() {
-    worksContainer.prepend(projectOne);
-    projectOne.classList.remove('close-one');
-    projectOne.classList.add('.modal-box');
-    document.body.classList.add('modal-active');
-    document.getElementById("overlay").style.display = "block";
-  }
-
-  function closePrjct1() {
-    worksContainer.removeChild(projectOne)
-    projectOne.classList.remove('.modal-box');
-    projectOne.classList.add('close-one');
-    document.body.classList.remove('modal-active');
-    document.getElementById("overlay").style.display = "none";
+  document.body.classList.remove('modal-active');
+  document.getElementById('overlay').style.display = 'none';
 }
 
 modal1Close();
