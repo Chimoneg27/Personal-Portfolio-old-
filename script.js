@@ -22,3 +22,16 @@ if (savedInfo) {
   email.value = savedInfo.email;
   textInput.value = savedInfo.message;
 }
+
+function saveFormInfo() {
+    const myFormInfo = {
+      name: fullName.value,
+      email: email.value,
+      text: textInput.value,
+    }
+    localStorage.setItem('myFormInfo', JSON.stringify(myFormInfo));
+  };
+  
+  fullName.addEventListener('input', saveFormInfo);
+  email.addEventListener('input', saveFormInfo);
+  textInput.addEventListener('input', saveFormInfo);
