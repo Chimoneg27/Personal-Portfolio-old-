@@ -1,5 +1,9 @@
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
+const popups = document.querySelector('.popup');
+const overlay = document.querySelector('.overlay');
+const showPopups = document.querySelectorAll('.show-project');
+let closePopUp;
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
