@@ -344,28 +344,33 @@
         chat please get in touch.
       </p>
 
-      <form action="https://formspree.io/f/mvonlkrz" method="POST">
+      <form action="https://formspree.io/f/mvonlkrz" method="POST" id="portfolio-form">
         <input
           type="text"
           name="full-name"
           placeholder="Full Name"
           maxlength="30"
           required
+          id="fullName"
         /><br />
         <input
           type="email"
           name="email"
+          id="email-input"
           placeholder="Email address"
           required
+          id="email-input"
         /><br />
         <textarea
           name="user-thoughts"
           placeholder="Write me something"
           maxlength="500"
           required
+          id="textArea"
         ></textarea
         ><br />
         <button type="submit">Get in touch</button>
+        <p id="error-text">Email should be in lowercase.</p>
       </form>
     </section>
 
@@ -417,6 +422,7 @@
       </footer>
     </section>
 
+    <script src="form.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

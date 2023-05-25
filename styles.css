@@ -682,6 +682,10 @@ form button:hover {
   bottom: 0.5rem;
 }
 
+#error-text {
+  display: none;
+}
+
 #real-form form button:hover {
   border: 1px solid #f55800;
   color: #faeeee;
