@@ -159,3 +159,13 @@ const renderPopUp = (e) => {
   closePopUp = document.querySelector('.close-button');
   closePopUp.addEventListener('click', closePopUpHandler);
 };
+
+showPopups.forEach((btn) => {
+  btn.addEventListener('click', renderPopUp);
+});
+function overLay() {
+  document.getElementById("over-lay").style.display = "block";
+}
+function overlayOff() {
+  document.getElementById("over-lay").style.display = "none";
+}
