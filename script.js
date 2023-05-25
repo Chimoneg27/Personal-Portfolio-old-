@@ -109,3 +109,53 @@ const projectData = [
     button2: "See source"
   },
 ];
+
+const closePopUpHandler = (event) => {
+  event.preventDefault();
+  overlay.classList.add('hidden-g');
+};
+
+const renderPopUp = (e) => {
+  e.preventDefault();
+  popups.innerHTML = '';
+  overlay.classList.remove('hidden-g');
+  const id = e.target.dataset.show;
+  const [templateMakeup] = projectData.filter((item) => item.id === id);
+  const markUp = ` 
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title-modal">${templateMakeup.title}</div>
+      <span class="title2">Keeping track of hundreds of components website</span>
+      <button class="close-button" onclick="overlayOff()">&times;</button>
+    </div>      
+    
+    <ul class="modal-list">
+        <li>${templateMakeup.skills.skill1}</li>
+        <li>${templateMakeup.skills.skill2}</li>
+        <li>${templateMakeup.skills.skill1}</li>
+      </ul>
+  <div class="modal-body">
+    <div class="side-left">
+      <img src="${templateMakeup.img}" alt="modal-img-mobile">
+      <img src="images/desktop/Snapshoot Portfoliomodal-desktop.png" alt="desktop-modal-img">
+    </div>
+    <div class="side-right">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+      </p>
+      <br>
+      <p class="paragraph-2">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essential.
+      </p>
+    
+      <div class="modal-btns">
+      <a href="https://chimoneg27.github.io/Personal-Portfolio/"><button>${templateMakeup.button1}<img src="images/Icon-modal-btn.svg" alt="see-live-icon"></button></a>
+      <a href="https://github.com/Chimoneg27/Personal-Portfolio"><button>${templateMakeup.button2}<img src="images/Icon-modal-btn.svg" alt="see-live-icon"></button></a>
+      </div>
+    </div>
+  </div>
+  `;
+  popups.insertAdjacentHTML('afterbegin', markUp);
+  closePopUp = document.querySelector('.close-button');
+  closePopUp.addEventListener('click', closePopUpHandler);
+};
