@@ -174,7 +174,7 @@
             </ul>
           </div>
 
-          <button>See project</button>
+          <button type="submit" value="submit" data-show="1" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
         <div class="projects">
           <h3>
@@ -194,7 +194,7 @@
             </ul>
           </div>
 
-          <button type="submit" value="submit" class="modalbtn">See project</button>
+          <button type="submit" value="submit" data-show="2" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
         <div class="projects">
           <h3>Profesional Art Printing Data <span>Website Portfolio</span></h3>
@@ -212,7 +212,7 @@
             </ul>
           </div>
 
-          <button type="submit" value="submit" class="modalbtn">See project</button>
+          <button type="submit" value="submit" data-show="3" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
         <div class="projects">
           <h3>
@@ -233,7 +233,7 @@
             </ul>
           </div>
 
-          <button type="submit" value="submit" class="modalbtn">See project</button>
+          <button type="submit" value="submit" data-show="4" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
         <div class="projects">
           <h3>
@@ -251,7 +251,7 @@
               <li>Ruby</li>
             </ul>
           </div>
-          <button type="submit" value="submit" class="modalbtn">See project</button>
+          <button type="submit" value="submit" data-show="5" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
         <div class="projects">
           <h3>Profesional Art Printing Data<span>Website Portfolio</span></h3>
@@ -267,7 +267,7 @@
               <li>Ruby</li>
             </ul>
           </div>
-          <button type="submit" value="submit" class="modalbtn">See project</button>
+          <button type="submit" value="submit" data-show="6" class="project-btn card-btn show-project" onclick="overLay()">See project</button>
         </div>
       </div>
     </section>
@@ -343,7 +343,7 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-
+      <div id="over-lay"></div>
       <form action="https://formspree.io/f/mvonlkrz" method="POST" id="portfolio-form">
         <input
           type="text"
@@ -415,12 +415,15 @@
             </li>
           </ul>
         </div>
-
         <div id="footer-line-img">
           <img src="images/Shapefooter line.svg" alt="footer-lined" />
         </div>
       </footer>
     </section>
+
+    <div class="overlay hidden-g"> <!--overlay hidden-->
+      <div class="popup"></div> <!--modal-box-->
+    </div>
 
     <script src="form.js"></script>
     <script src="script.js"></script>
