@@ -46,3 +46,66 @@ textarea.addEventListener('input', () => {
 
 fullName.addEventListener('input', saveFormInfo);
 email.addEventListener('input', saveFormInfo);
+
+const projectData = [
+  {
+    id: '1',
+    title: 'Multi Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+  {
+    id: '2',
+    title: 'Multi Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+  {
+    id: '3',
+    title: 'Multi Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+  {
+    id: '4',
+    title: 'ProfeMulti Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+  {
+    id: '5',
+    title: 'Multi Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+  {
+    id: '6',
+    title: 'Multi Post Stories',
+    description:
+      ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
+    skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
+    img: './images/Snapshoot Portfolio.png',
+    button1: "See live",
+    button2: "See source"
+  },
+];
