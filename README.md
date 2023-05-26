@@ -30,8 +30,11 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- JavaScript
 
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -48,6 +51,7 @@
 - **Mobile first approach to design.**
 - **Available for both mobile and desktop version**
 - **Built using DOM**
+- **Built using dynamic html**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +159,7 @@ npx eslint .
 👤 **Garvin**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
-- Twitter: [@CGarvinChimone](https://twitter.com/GarvinChimone)
+- Twitter: [@GarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
 
 
@@ -166,9 +170,9 @@ npx eslint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Toolbar with logo and working hamburger button]**
-- [ ] **[Made using a mobile first approach]**
-- [ ] **[CSS styling applied to the headline and toolbar]**
+- [ ] **[New logo]**
+- [ ] **[Animated navigation]**
+- [ ] **[Working icon links]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
