@@ -44,7 +44,6 @@ textarea.addEventListener('input', () => {
 fullName.addEventListener('input', saveFormInfo);
 email.addEventListener('input', saveFormInfo);
 
-
 const projectData = [
   {
     id: '1',
@@ -53,8 +52,8 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
   {
     id: '2',
@@ -63,8 +62,8 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
   {
     id: '3',
@@ -73,8 +72,8 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
   {
     id: '4',
@@ -83,8 +82,8 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
   {
     id: '5',
@@ -93,8 +92,8 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
   {
     id: '6',
@@ -103,19 +102,19 @@ const projectData = [
       ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque dolorem voluptatum. Eum adipisci omnis dolores ab est nobis at   repudiandae consequatur eaque dolorem! Nostrum dolorem aspernatur debitis perferendis quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae iste ipsa error esse eum veritatis, nihil',
     skills: { skill1: 'HTML', skill2: 'Bootstrap', skill3: 'Ruby on rails' },
     img: './images/Snapshoot Portfolio.png',
-    button1: "See live",
-    button2: "See source"
+    button1: 'See live',
+    button2: 'See source',
   },
 ];
 
 function overLay() {
-  document.getElementById("over-lay").style.display = "block";
-  modal.style.display = "block";
+  document.getElementById('over-lay').style.display = 'block';
+  modal.style.display = 'block';
 }
 
 function overlayOff() {
-  document.getElementById("over-lay").style.display = "none";
-  modal.style.display = "none"
+  document.getElementById('over-lay').style.display = 'none';
+  modal.style.display = 'none';
 }
 
 const projectsContainer = document.getElementById('projects-container');
@@ -161,7 +160,7 @@ const projectCards = [
 
 function addCards(projectsArr) {
   let cards = '';
-  for (let i = 0; i < projectsArr.length; i++) {
+  for (let i = 0; i < projectsArr.length; i += 1) {
     cards += `
     <div class="${projectsArr[i].class}">
     <h3>${projectsArr[i].heading}</h3>
@@ -179,18 +178,18 @@ function addCards(projectsArr) {
 
     <button type="submit" value="submit" data-show="1" class="show-project" onclick="overLay()">See project</button>
     </div>
-    `
+    `;
   }
   return cards;
 }
 
 projectsContainer.innerHTML = `
   ${addCards(projectCards)}
-`
+`;
 
 function addPopUp(modalArr) {
-  let boxes = "";
-    boxes = `
+  let boxes = '';
+  boxes = `
     <div class="modal" id="modal">
     <div class="modal-header">
       <div class="title-modal">${modalArr[0].title}</div>
@@ -223,10 +222,13 @@ function addPopUp(modalArr) {
       </div>
     </div>
   </div>
-    `
+    `;
   return boxes;
 }
 
 modal.innerHTML = `
 ${addPopUp(projectData)}
-`
+`;
+
+overLay();
+overlayOff();
