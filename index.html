@@ -22,6 +22,7 @@
     src="https://cdn.jsdelivr.net/npm/@hint/utils-dom@2.2.3/dist/src/index.min.js
     "></script>
 
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="styles.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -150,127 +151,13 @@
             </ul>
           </div>
 
-          <button type="submit" value="submit">See project</button>
+          <button type="submit" value="submit" onclick="overLay()">See project</button>
         </div>
       </div>
-
       <div id="projects-container">
-        <div class="projects">
-          <h3>
-            Profesional Art Printing Data
-            <span>Profesional Art Printing Data</span>
-          </h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-
-          <button type="submit" value="submit">See project</button>
-        </div>
-        <div class="projects">
-          <h3>
-            Profesional Art Printing Data <span>Data Dashboard Healthcare</span>
-          </h3>
-
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-
-          <button type="submit" value="submit">See project</button>
-        </div>
-        <div class="projects">
-          <h3>Profesional Art Printing Data <span>Website Portfolio</span></h3>
-
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-
-          <button type="submit" value="submit">See project</button>
-        </div>
-        <div class="projects">
-          <h3>
-            Profesional Art Printing Data
-            <span>Profesional Art Printing Data</span>
-          </h3>
-
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-
-          <button type="submit" value="submit">See project</button>
-        </div>
-        <div class="projects">
-          <h3>
-            Profesional Art Printing Data<span>Data Dashboard Healthcare</span>
-          </h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-          <button type="submit" value="submit">See project</button>
-        </div>
-        <div class="projects">
-          <h3>Profesional Art Printing Data<span>Website Portfolio</span></h3>
-          <p>
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. Has been the industry's standard.
-          </p>
-
-          <div class="project-tags">
-            <ul>
-              <li>HTML</li>
-              <li>Bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-          </div>
-          <button type="submit" value="submit">See project</button>
-        </div>
       </div>
     </section>
-
+    <div id="modal-box"></div>
     <section id="about-me">
       <div id="abt-container">
         <div id="abt-title">
@@ -342,7 +229,7 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-
+      <div id="over-lay"></div>
       <form action="https://formspree.io/f/mvonlkrz" method="POST" id="portfolio-form">
         <input
           type="text"
@@ -414,7 +301,6 @@
             </li>
           </ul>
         </div>
-
         <div id="footer-line-img">
           <img src="images/Shapefooter line.svg" alt="footer-lined" />
         </div>
