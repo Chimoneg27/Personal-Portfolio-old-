@@ -1003,7 +1003,7 @@ form button:hover {
   }
 
   .projects h3 {
-    visibility: hidden;
+    visibility: visible;
   }
 
   .projects p {
@@ -1060,11 +1060,11 @@ form button:hover {
   }
 
   #projects-container :nth-child(6n) h3 {
-    visibility: hidden;
+    visibility: visible;
   }
 
   #projects-container :nth-child(3n) h3 {
-    visibility: hidden;
+    visibility: visible;
   }
 
   #about-me {
